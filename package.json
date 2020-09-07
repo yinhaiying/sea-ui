@@ -45,5 +45,9 @@
   },
   "pre-commit": [
     "lint"
-  ]
+  ],
+  "devDependencies": {
+    "dart-sass": "^1.25.0",
+    "sass": "^1.26.10"
+  }
 }
