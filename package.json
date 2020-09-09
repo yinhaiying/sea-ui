@@ -47,7 +47,6 @@
   ],
   "devDependencies": {
     "dart-sass": "^1.25.0",
-    "eslint": "^7.8.1",
     "sass": "^1.26.10"
   }
 }
