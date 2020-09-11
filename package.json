@@ -11,6 +11,7 @@
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
     "babel-eslint": "^10.1.0",
+    "classnames": "^2.2.6",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-react": "^7.20.6",
     "pre-commit": "^1.2.2",
@@ -46,6 +47,7 @@
     "lint"
   ],
   "devDependencies": {
+    "@types/classnames": "^2.2.10",
     "dart-sass": "^1.25.0",
     "sass": "^1.26.10"
   }
