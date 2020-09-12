@@ -1,0 +1,38 @@
+// lg normal sm不同尺寸的按钮的区别
+@mixin button-size($padding-y, $padding-x, $font-size, $border-radius) {
+    padding:$padding-y $padding-x;
+    font-size:$font-size;
+    border-radius:$border-radius;
+}
+
+// type:primary danger link不同类型的尺寸的区别：颜色 边框
+@mixin button-type(
+    $background, 
+    $border, 
+    $color, 
+    $hover-background:lighten($background,7.5%),
+    $hover-border:lighten($border,10%),
+    $hover-color:$color
+    ) {
+    color:$color;
+    background:$background;
+    border-color:$border;
+    &:hover{
+            color:$hover-color;
+            background:$hover-background;
+            border-color:$hover-border;
+    }
+    &:focus,&.focus,
+    &:active,&.active{
+            color:$hover-color;
+            background:$hover-background;
+            border-color:$hover-border;
+    }
+    &:disabled,
+    &.disabled {
+            color:$color;
+            background:$background;
+            border-color:$border;
+    }
+
+}
