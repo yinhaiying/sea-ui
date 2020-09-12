@@ -36,6 +36,7 @@ module.exports = {
     "wx": true,
     "process": true,
     "qq": true,
+    "Partial":true
   },
   "settings": {
     "react": {
@@ -86,7 +87,7 @@ module.exports = {
     // 禁止将 undefined 作为标识符
     "no-undefined": 0,
     // 不允许在变量定义之前使用它们
-    "no-use-before-define": 0,
+    "no-use-before-define": 1,
     //////////////
     // 风格指南 //
     //////////////
